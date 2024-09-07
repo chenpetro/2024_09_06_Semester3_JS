@@ -1,5 +1,5 @@
 let value = 5
-value = value + 10
+// value = value + 10
 value += 10
 console.log (5!== 5)
 
@@ -7,6 +7,7 @@ let a = '5'
 console.log(typeof Number(a));
 const user = Number(prompt('Enter your number'))
 console.log(typeof user);
+console.log(user);
 
 
 // Parse to the full number
@@ -39,7 +40,7 @@ console.log(Math.round(1.5)); // 2
 
 
 // Math.max(num1, num2, ...) - повертає найбільше число з набору
-console.log(Math.max(20, 10, 50, 40)); // 50
+console.log(Math.max(20, 10, 50, 40, 103.5, 102, 1045, 104)); // 1045
 
 
 // Math.min(num1, num2, ...) - повертає найменше число з набору
@@ -51,8 +52,14 @@ console.log(Math.pow(2, 4)); // 16
 
 
 // Math.random() - повертає псевдовипадкове число в діапазоні [0, 1)
-console.log(Math.random()); // випадкове число між 0 and 1
+console.log(Math.random()); // 
 
 // // Math.random() - повертає псевдовипадкове число в діапазоні [0, 1)
-console.log(Math.floor(Math.random() * 6 + 1)); // випадкове число між 0 and 1
-console.log(Math.floor(Math.random() * 10 + 5)); // випадкове число між 5 and 14
+console.log(Math.floor(Math.random() * 6 + 1)); // 
+console.log(Math.floor(Math.random() * 10 + 5)); // 
+console.log(Math.floor(Math.random() * 26 + 12)); //   12  37
+
+ let r = confirm("Press a button!");
+ console.log (r)
+
+ alert ("GOGOGO")
