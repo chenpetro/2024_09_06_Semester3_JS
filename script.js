@@ -51,7 +51,8 @@ console.log(Math.pow(2, 4)); // 16
 
 
 // Math.random() - повертає псевдовипадкове число в діапазоні [0, 1)
-console.log(Math.random()); // випадкове число між 0 и 1
+console.log(Math.random()); // випадкове число між 0 and 1
 
 // // Math.random() - повертає псевдовипадкове число в діапазоні [0, 1)
-console.log(Math.floor(Math.random() * 6 + 1)); // випадкове число між 0 и 1
+console.log(Math.floor(Math.random() * 6 + 1)); // випадкове число між 0 and 1
+console.log(Math.floor(Math.random() * 10 + 5)); // випадкове число між 5 and 14
